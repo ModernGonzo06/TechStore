@@ -97,9 +97,9 @@
     <div class="products">
         <?php
         $myHost = "localhost";
-        $myUserName = "ujsrwwbgswjcp";
-        $myPassword = "84%u1oh^(%&U";
-        $myDatabase = "dbafff4anjxrsg";
+        $myUserName = "";
+        $myPassword = "";
+        $myDatabase = "";
         //connects to db
         $db = mysqli_connect($myHost, $myUserName, $myPassword, $myDatabase);
         //checks connection

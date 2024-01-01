@@ -40,9 +40,9 @@
         <?php
         // Establish database connection
         $myHost = "localhost";
-        $myUserName = "ujsrwwbgswjcp";
-        $myPassword = "84%u1oh^(%&U";
-        $myDatabase = "dbafff4anjxrsg";
+        $myUserName = "";
+        $myPassword = "";
+        $myDatabase = "";
         $db = mysqli_connect($myHost, $myUserName, $myPassword, $myDatabase);
         //check connection
         if (mysqli_connect_errno()) {

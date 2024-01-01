@@ -4,9 +4,9 @@ $postData = file_get_contents("php://input");
 $cartData = json_decode($postData, true);
 
 $myHost = "localhost";
-$myUserName = "ujsrwwbgswjcp";
-$myPassword = "84%u1oh^(%&U";
-$myDatabase = "dbafff4anjxrsg";
+$myUserName = "";
+$myPassword = "";
+$myDatabase = "";
 // Establish a database connection
 $conn = new mysqli($myHost, $myUserName, $myPassword, $myDatabase);
 
